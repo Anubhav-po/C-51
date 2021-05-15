@@ -1,0 +1,49 @@
+h1{
+    color: crimson;
+}
+*{
+    border: solid;
+}
+
+.header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: cornflowerblue;
+    border: blue;
+    display: flex;
+    justify-content: right;
+}
+
+.descr{
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: last baseline;
+}
+
+.GRID{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #12c722;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: lightsalmon;
+}
+
+body{
+    background-color: #f51010c9;
+}
+
+p,h2{text-align: center;}
